@@ -6,22 +6,16 @@
     font-family: 'Open Sans', sans-serif;
 }
 
-/* colori di prova */
-header {
-    background-color: lightskyblue;
-}
-header div.menu {
-    background-color: lightcoral;
-}
-
-
 /* tags */
-.p-20 {
+header {
     padding: 20px;
+    width: 100%;
+
 }
 
-header {
-    width: 100%;
+header div img.logo {
+    vertical-align: text-bottom;
+    padding-right: 30px;
 }
 
 header div ul,
@@ -29,10 +23,41 @@ header div ul li {
     display: inline-block;
 }
 
+header div ul li {
+    padding-right: 30px;
+}
+
+div.jumbo-text h1 {
+    font-size: 65px;
+    padding-top: 50px;
+}
+
+#jumbo-description{
+    width: 25%;
+    padding: 50px 0 20px 0;
+}
+
+section.jumbotron-container 
+div.jumbo-img-container img {
+    position: absolute;
+    width: 55%;
+    top: 350px;
+    right: 100px;
+}
+
+section.jumbotron-container button {
+    margin-bottom: 10px;
+}
+
+div.jumbo-text i.fa-arrow-down {
+    margin-top: 20px;
+}
+
 button {
     border-style: none;
     border-color: currentColor;
 }
+
 
 
 /* utilities */
@@ -50,12 +75,48 @@ button {
     float: right;
 }
 
+section.jumbotron-container {
+    background-color: #b4d0e7;
+    height: 100vh;
+}
+
+.jumbo-text {
+    width: 80%;
+    margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* variazioni pulsanti */
 button.small {
     padding: 5px 15px;
-
 }
 
+button.large {
+    padding: 5px 30px;
+}
+
+/* stili pulsanti */
 button.blue {
     background-color: #0061ff;
+    color: white;
 }
 
+button.overlay {
+    background-color: white;
+    color: black;
+    border: 1px solid currentColor;
+}
+
+button.white {
+    background-color: white;
+    color: black;
+}
