@@ -6,18 +6,56 @@
     font-family: 'Open Sans', sans-serif;
 }
 
-
-
+/* colori di prova */
+header {
+    background-color: lightskyblue;
+}
+header div.menu {
+    background-color: lightcoral;
+}
 
 
 /* tags */
+.p-20 {
+    padding: 20px;
+}
 
+header {
+    width: 100%;
+}
 
+header div ul,
+header div ul li {
+    display: inline-block;
+}
 
+button {
+    border-style: none;
+    border-color: currentColor;
+}
 
 
 /* utilities */
+.clearfix {
+    content: "";
+    display: table;
+    clear: both;
+}
 
+.left {
+    float: left;
+}
 
+.right {
+    float: right;
+}
 
+button.small {
+    padding: 5px 15px;
+
+}
+
+button.blue {
+    background-color: #0061ff;
+}
 
