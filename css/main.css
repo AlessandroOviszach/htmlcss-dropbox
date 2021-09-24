@@ -41,7 +41,7 @@ section.jumbotron-container
 div.jumbo-img-container img {
     position: absolute;
     width: 55%;
-    top: 350px;
+    top: 380px;
     right: 100px;
 }
 
@@ -75,9 +75,15 @@ button {
     float: right;
 }
 
+.section-container {
+    width: 70%;
+    margin: auto;
+}
+
 section.jumbotron-container {
     background-color: #b4d0e7;
     height: 100vh;
+    margin-bottom: 200px;
 }
 
 .jumbo-text {
@@ -86,13 +92,15 @@ section.jumbotron-container {
 }
 
 
+/* variazioni font size/weight */
+.sec-title{
+    font-size: 40px;
+    padding-bottom: 50px;
+}
 
-
-
-
-
-
-
+.item-title{
+    font-size: 20px;
+}
 
 
 /* variazioni pulsanti */
@@ -119,4 +127,9 @@ button.overlay {
 button.white {
     background-color: white;
     color: black;
+}
+
+
+.p-20 {
+    padding: 20px 0;
 }
