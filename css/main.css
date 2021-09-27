@@ -91,6 +91,16 @@ section.jumbotron-container {
     margin: auto;
 }
 
+.billing-plane {
+    width: 80%;
+}
+
+.billing-card {
+    margin: 20px 0;
+    height: 200px;
+    background-color: dodgerblue;
+}
+
 
 /* variazioni font size/weight */
 .sec-title{
