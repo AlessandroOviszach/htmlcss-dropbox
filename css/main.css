@@ -10,7 +10,6 @@
 header {
     padding: 20px;
     width: 100%;
-
 }
 
 header div img.logo {
@@ -61,7 +60,7 @@ button {
 
 
 /* utilities */
-.clearfix {
+.clearfix::after {
     content: "";
     display: table;
     clear: both;
@@ -75,11 +74,6 @@ button {
     float: right;
 }
 
-.section-container {
-    width: 70%;
-    margin: auto;
-}
-
 section.jumbotron-container {
     background-color: #b4d0e7;
     height: 100vh;
@@ -91,14 +85,41 @@ section.jumbotron-container {
     margin: auto;
 }
 
-.billing-plane {
-    width: 80%;
+/* sales section */
+.sales-container {
+    width: 70%;
+    margin: auto;
+}
+
+.billing-card-content {
+    margin: 30px 0 60px 0;
+    height: 1000px;
+    width: calc(100% / 3);
 }
 
 .billing-card {
-    margin: 20px 0;
-    height: 200px;
-    background-color: dodgerblue;
+    height: 1000px;
+    border: 1px solid lightgray;
+}
+
+/* tipologia di piani */
+div.billing-card.professional {
+    margin-right: 40px;
+}
+
+div.billing-card.standard {
+    margin: 0 20px;
+}
+
+div.billing-card.advanced {
+    margin-left: 40px;
+}
+
+div.enterprice {
+    margin-bottom: 100px;
+    border: 1px solid lightgray;
+    height: 250px;
+    width: 100%;
 }
 
 
