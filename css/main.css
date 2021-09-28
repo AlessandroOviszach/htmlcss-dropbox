@@ -146,7 +146,7 @@ div.enterprice {
 
 /* merit section */
 .merit-section {
-    margin-bottom: 200px;
+    margin-bottom: 150px;
 }
 
 div.merit-container {
@@ -175,6 +175,11 @@ div.merit-right {
     margin-left: 40px;
 }
 
+/* phrase to attract attention */
+div.attractive-phrase,
+div.attractive-phrase h1 {
+    margin-bottom: 30px;
+}
 
 /* variazioni font size/weight */
 .sec-title{
@@ -186,6 +191,53 @@ div.merit-right {
     font-size: 20px;
 }
 
+/* companies that use dropbox */
+
+.evidance { /* TODO Remove me */
+    border: 1px solid lightgrey;
+
+}
+
+.comp-use-dropbox {
+    height: 400px;
+}
+
+section.comp-use-dropbox div.logo-container {
+    width: 30%;
+    height: 100%;
+}
+
+.partner-logo {
+    height: 50%;
+    width: 50%;
+    padding: 17% 8%;
+}
+
+div.partner-logo img {
+    width: 100%;
+}
+
+div.central-text {
+    height: 100%;
+    width: 40%;
+    padding: 50px;
+}
+
+div.central-text img {
+    width: 200px;
+    margin-bottom: 50px;
+}
+
+div.central-text p {
+    margin-bottom: 20px
+}
+
+.banner {
+    background-color: lightskyblue;
+    height: 300px;
+    width: 100%;
+    padding: 10% 20% 0;
+}
 
 /* variazioni pulsanti */
 button.small {
