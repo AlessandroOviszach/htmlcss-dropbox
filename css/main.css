@@ -131,8 +131,6 @@ div.enterprice {
     height: 500px;
 }
 
-
-
 .description-container {
     width: 40%;
     margin-top: 40px;
@@ -144,6 +142,37 @@ div.enterprice {
 
 .description-container p {
     margin-bottom: 20px;
+}
+
+/* merit section */
+.merit-section {
+    margin-bottom: 200px;
+}
+
+div.merit-container {
+    width: calc(100% / 3);
+    margin-bottom: 60px;
+}
+
+div.merit-content {
+    border: 1px solid lightgray;
+}
+
+div.merit-container div.merit-content img {
+    width: 100%;
+}
+
+/* merit position var */
+div.merit-left {
+    margin-right: 40px;
+}
+
+div.merit-central {
+    margin: 0 20px;
+}
+
+div.merit-right {
+    margin-left: 40px;
 }
 
 
